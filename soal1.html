@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Soal1</title>
+  </head>
+  <body>
+    <script>
+      // Lakukan perulangan FOR dari 1 sampai 100
+      for (var i = 1; i <= 100; i++) {
+        // Buat elemen <p> baru dan tambahkan ke dalam elemen <body>
+        var p = document.createElement("p");
+        var text = document.createTextNode("User ke - " + i);
+        p.appendChild(text);
+        document.body.appendChild(p);
+      }
+    </script>
+  </body>
+</html>

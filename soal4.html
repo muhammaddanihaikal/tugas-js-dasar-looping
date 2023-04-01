@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soal 4</title>
+    <script>
+      // Deklarasi variabel jumlahKlik dengan nilai awal 0
+      var jumlahKlik = 0;
+
+      // Lakukan perulangan while selama user memilih 'OK'
+      while (confirm("Apakah anda mau mengulang")) {
+        // Tambahkan jumlahKlik dengan 1 pada setiap klik 'OK' yang dilakukan
+        jumlahKlik++;
+      }
+
+      // Jika user memilih 'Cancel', tampilkan teks 'Perulangan sudah dilakukan sebanyak jumlahKlik'
+      alert("Perulangan sudah dilakukan sebanyak " + jumlahKlik + " kali.");
+    </script>
+  </head>
+  <body></body>
+</html>
